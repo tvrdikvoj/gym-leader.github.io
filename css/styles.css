@@ -1,6 +1,6 @@
 body {
     background-color:white;
-    font-family:"Arial";
+    font-family:"Roboto";
 }
 
 ul {
@@ -35,10 +35,6 @@ li a:hover:not(.active), .dropdown:hover:not(.active) .dropbtn {
   
 li.dropdown {
     display: inline-block;
-}
-
-h1 {
-    font-family:"Actor";
 }
   
 .dropdown-content {
