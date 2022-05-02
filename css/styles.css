@@ -1,6 +1,8 @@
 body {
     background-color:white;
+    font-family:"Almarai";
 }
+
 ul {
     list-style-type: none;
     margin: 0;
