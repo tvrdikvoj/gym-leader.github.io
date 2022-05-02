@@ -1,6 +1,18 @@
+* {
+    box-sizing: border-box;
+  }
+
+p {
+    font-size: x-large;
+}
+
 body {
     background-color:white;
     font-family:"Roboto";
+}
+
+.center {
+    text-align: center;
 }
 
 ul {
@@ -12,6 +24,7 @@ ul {
 }
   
 li {
+    font-size: xx-large;
     float: left;
 }
 
@@ -63,9 +76,42 @@ li.dropdown {
     background-color: #04AA6D;
 }
 
-.profile-pic{
-  width:10%;
-  height:10%;
-  object-fit:cover;
-  border-radius:50%;
+.leaders {
+    display: flex;
+    flex-direction: column;
+}
+
+.leader {
+    padding: 2em 2em; 
+    display: flex;
+    flex-direction: row;
+}
+
+.profile {
+    flex: 0 0 27em;
+    order: -1;
+    align-self: center;
+}
+
+.name {
+    display: inline;
+    white-space:nowrap;
+}
+
+.about {
+    flex-grow: 1;
+}
+
+.profile-pic {
+    width:25em;
+    height:25em;
+    object-fit:cover;
+    border-radius:50%;
+  }
+
+.type {
+    margin: 1px;
+    width: 5em;
+    height: 5em;
+    float: left;
 }
