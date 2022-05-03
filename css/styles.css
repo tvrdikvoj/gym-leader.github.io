@@ -15,7 +15,7 @@ body {
     text-align: center;
 }
 
-ul {
+ul.nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -23,7 +23,7 @@ ul {
     background-color: #38444d;
 }
   
-li {
+ul.nav > li {
     font-size: xx-large;
     float: left;
 }
@@ -34,7 +34,7 @@ div.navbar{
   width: 100%;
 }
   
-li a, .dropbtn {
+ul.nav > li a, .dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
@@ -42,11 +42,11 @@ li a, .dropbtn {
     text-decoration: none;
 }
   
-li a:hover:not(.active), .dropdown:hover:not(.active) .dropbtn {
+ul.nav > li a:hover:not(.active), .dropdown:hover:not(.active) .dropbtn {
     background-color: #111;
 }
   
-li.dropdown {
+ul.nav > li.dropdown {
     display: inline-block;
 }
   
