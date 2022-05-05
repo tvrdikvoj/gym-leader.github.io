@@ -3,12 +3,12 @@
   }
 
 p {
-    font-size: x-large;
+    font-size: large;
 }
 
 body {
     background-color:white;
-    font-family:"Roboto";
+    font-family:"Roboto", sans-serif, monospace;
 }
 
 .center {
@@ -51,7 +51,7 @@ a.link {
 }
 
 .dropdown-content > a  {
-    font-size: large;
+    font-size: x-large;
 }
   
 ul.nav > li a:hover:not(.active), .dropdown:hover:not(.active) .dropbtn {
@@ -114,6 +114,16 @@ ul.nav > li.dropdown {
     flex-grow: 1;
 }
 
+.rules {
+    text-align: center;
+    list-style-position: inside;
+}
+
+.rules > li {
+    margin: 1%;
+    padding-right: 5%;
+}
+
 .profile-pic {
     width:25em;
     height:25em;
@@ -126,4 +136,17 @@ ul.nav > li.dropdown {
     width: 5em;
     height: 5em;
     float: left;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    padding: 1em 1em;
+}
+
+.rules {
+    font-family: monospace;
+    font-size: large;
 }
