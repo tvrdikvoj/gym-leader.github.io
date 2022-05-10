@@ -106,7 +106,7 @@ ul.nav > li.dropdown {
 }
 
 .leader {
-    padding: 2em 2em; 
+    padding: 2em 1em; 
     display: flex;
     flex-direction: row;
 }
@@ -137,11 +137,17 @@ ul.nav > li.dropdown {
 }
 
 .profile-pic {
-    width:25em;
-    height:25em;
+    width:22em;
+    height:22em;
     object-fit:cover;
     border-radius:50%;
-  }
+}
+
+.warning {
+    font-family: monospace;
+    text-align: center;
+    background: yellow;
+}
 
 .type {
     margin: 1px;
