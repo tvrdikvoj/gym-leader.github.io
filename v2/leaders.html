@@ -1,222 +1,224 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Gym Leader Challenge Česko</title>
-        <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/gym-leader/gym-leader.github.io/main/favicon.ico">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    </head>
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gym Leader Challenge Česko</title>
+    <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/gym-leader/gym-leader.github.io/main/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="d-flex flex-column h-100">
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
             <div class="container-fluid">
-              <a href="index.html" class="navbar-brand">
-                <img src="/assets/brand.png" alt="GLC CZ" width="100em" height="33.6em"> <!--Add brand logo-->
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <a href="index.html" class="navbar-brand">
+                    <img src="/assets/brand.png" alt="GLC CZ" width="100em" height="33.6em">
+                    <!--Add brand logo-->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" href="index.html">Domů</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="rules.html">Pravidla</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle active" href="leaders.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Domů</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="rules.html">Pravidla</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="leaders.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
                       Gym Leadeři
                     </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="leaders.html#grass">Grass</a></li>
-                        <li><a class="dropdown-item" href="leaders.html#fire">Fire</a></li>
-                        <li><a class="dropdown-item" href="leaders.html#water">Water</a></li>
-                        <li><a class="dropdown-item" href="leaders.html#lightning">Lightning</a></li>
-                        <li><a class="dropdown-item" href="leaders.html#psychic">Psychic</a></li>
-                        <li><a class="dropdown-item" href="leaders.html#metal">Metal</a></li>
-                        <li><a class="dropdown-item" href="leaders.html#dragon">Dragon</a></li>
-                        <li><a class="dropdown-item" href="leaders.html#colorless">Colorless</a></li>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="leaders.html#grass">Grass</a></li>
+                                <li><a class="dropdown-item" href="leaders.html#fire">Fire</a></li>
+                                <li><a class="dropdown-item" href="leaders.html#water">Water</a></li>
+                                <li><a class="dropdown-item" href="leaders.html#lightning">Lightning</a></li>
+                                <li><a class="dropdown-item" href="leaders.html#psychic">Psychic</a></li>
+                                <li><a class="dropdown-item" href="leaders.html#metal">Metal</a></li>
+                                <li><a class="dropdown-item" href="leaders.html#dragon">Dragon</a></li>
+                                <li><a class="dropdown-item" href="leaders.html#colorless">Colorless</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.toredo.cz/">Eshop</a>
+                        </li>
                     </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="https://www.toredo.cz/">Eshop</a>
-                  </li>
-                </ul>
-              </div>
+                </div>
             </div>
-          </nav>
+        </nav>
+    </header>
 
-    <h1>GYM LEADEŘI</h1>
+    <main class="flex-shrink-0 pb-5">
+        <div class="container">
+            <h1>GYM LEADEŘI</h1>
 
-    <div class="leaders">
-        <div class="center leader" id="grass">
-            <div class="profile">
-                <div class="pic">
-                    <img src="img/grass.jpg" alt="Profilový obrázek grass gym leadera" class="profile-pic" />
+            <div class="leaders">
+                <div class="center leader" id="grass">
+                    <div class="profile">
+                        <div class="pic">
+                            <img src="img/grass.jpg" alt="Profilový obrázek grass gym leadera" class="profile-pic" />
+                        </div>
+                        <div class="name">
+                            <h1>Lukáš Vondruška</h1>
+                        </div>
+                    </div>
+                    <div class="about">
+                        <p>
+                            <b>Typ: </b>Grass<br/>
+                            <b>Region: </b>Jihlava<br/>
+                            <b>Hraje od: </b>2010<br/>
+                            <b>Balíček: </b>Energy Acceleration<br/>
+                            <b>Kde hraje: </b>Po domluvě v Jihalvě a na turnajích<br/><br/> Travní Pokémoni pro Lukáše dlouhou dobu nebyli zajímaví, orientoval se spíše na jiné typy. Když však zjistil, že i oni dokáží dávat velké zranění a hlavně speciální kondice, byli pro něj dlouho podceňovaní travní pokémoni jasná volba. Právě speciální kondice mohou být při hrách s Lukášem rozhodující. Dávejte si pozor na karty jako je <a href="https://limitlesstcg.com/cards/NXD/9">Amoonguss</a> nebo <a href="https://limitlesstcg.com/cards/FFI/3">Victreebel</a>.
+                        </p>
+                    </div>
                 </div>
-                <div class="name">
-                    <h1>Lukáš Vondruška</h1>
-                </div>  
-            </div>
-            <div class="about">
-                <p>
-                    <b>Typ: </b>Grass<br/>
-                    <b>Region: </b>Jihlava<br/>
-                    <b>Hraje od: </b>2010<br/>
-                    <b>Balíček: </b>Energy Acceleration<br/>
-                    <b>Kde hraje: </b>Po domluvě v Jihalvě a na turnajích<br/><br/>
-                    Travní Pokémoni pro Lukáše dlouhou dobu nebyli zajímaví, orientoval se spíše na jiné typy.
-                    Když však zjistil, že i oni dokáží dávat velké zranění a hlavně speciální kondice, byli pro něj dlouho podceňovaní travní pokémoni jasná volba.
-                    Právě speciální kondice mohou být při hrách s Lukášem rozhodující. Dávejte si pozor na karty jako je <a href="https://limitlesstcg.com/cards/NXD/9">Amoonguss</a> nebo <a href="https://limitlesstcg.com/cards/FFI/3">Victreebel</a>.
-                </p>
-            </div>
-        </div>
-        <div class="center leader" id="fire">
-            <div class="profile">
-                <div class="pic">
-                    <img src="img/fire.jpg" alt="Profilový obrázek fire gym leadera" class="profile-pic" />
+                <div class="center leader" id="fire">
+                    <div class="profile">
+                        <div class="pic">
+                            <img src="img/fire.jpg" alt="Profilový obrázek fire gym leadera" class="profile-pic" />
+                        </div>
+                        <div class="name">
+                            <h1>Patrik Bartošovič</h1>
+                        </div>
+                    </div>
+                    <div class="about">
+                        <p>
+                            <b>Typ: </b>Fire<br/>
+                            <b>Region: </b>Ostrava<br/>
+                            <b>Hraje od: </b>2000<br/>
+                            <b>Balíček: </b>Energy Acceleration<br/>
+                            <b>Kde hraje: </b>Po domluvě v Praze a na turnajích<br/><br/> Patrika vždy lákaly balíčky, které mají možnost přikládat více energií za kolo. Právě pro tuto strategii je oheň jako dělaný, a to díky kartám jako je <a href="https://limitlesstcg.com/cards/UNB/189">Welder</a> nebo <a href="https://limitlesstcg.com/cards/BLW/20">Emboar</a>. Jeho cílem je nabít co se dá, dávat neomezené poškození a pozvat ostatní na grilovačku.
+                        </p>
+                    </div>
                 </div>
-                <div class="name">
-                    <h1>Patrik Bartošovič</h1>
-                </div>  
-            </div>
-            <div class="about">
-                <p>
-                    <b>Typ: </b>Fire<br/>
-                    <b>Region: </b>Ostrava<br/>
-                    <b>Hraje od: </b>2000<br/>
-                    <b>Balíček: </b>Energy Acceleration<br/>
-                    <b>Kde hraje: </b>Po domluvě v Praze a na turnajích<br/><br/>
-                    Patrika vždy lákaly balíčky, které mají možnost přikládat více energií za kolo. Právě pro tuto strategii je oheň jako dělaný, a to díky kartám jako je <a href="https://limitlesstcg.com/cards/UNB/189">Welder</a> nebo <a href="https://limitlesstcg.com/cards/BLW/20">Emboar</a>.
-                    Jeho cílem je nabít co se dá, dávat neomezené poškození a pozvat ostatní na grilovačku.
-                </p>
-            </div>
-        </div>
-        <div class="center leader" id="water">
-            <div class="profile">
-                <div class="pic">
-                    <img src="img/water.jpg" alt="Profilový obrázek water gym leadera" class="profile-pic" />
+                <div class="center leader" id="water">
+                    <div class="profile">
+                        <div class="pic">
+                            <img src="img/water.jpg" alt="Profilový obrázek water gym leadera" class="profile-pic" />
+                        </div>
+                        <div class="name">
+                            <h1>Patrik Holler</h1>
+                        </div>
+                    </div>
+                    <div class="about">
+                        <p>
+                            <b>Typ: </b>Water<br/>
+                            <b>Region: </b>Mariánské Lázně<br/>
+                            <b>Hraje od: </b>???<br/>
+                            <b>Balíček: </b>???<br/>
+                            <b>Kde hraje: </b>Po domluvě v Praze a na turnajích<br/><br/> Informace o tomto leaderovi pro vás připravujeme.</p>
+                    </div>
                 </div>
-                <div class="name">
-                    <h1>Patrik Holler</h1>
-                </div>  
-            </div>
-            <div class="about">
-                <p>
-                    <b>Typ: </b>Water<br/>
-                    <b>Region: </b>Mariánské Lázně<br/>
-                    <b>Hraje od: </b>???<br/>
-                    <b>Balíček: </b>???<br/>
-                    <b>Kde hraje: </b>Po domluvě v Praze a na turnajích<br/><br/>
-                    Informace o tomto leaderovi pro vás připravujeme.</p>
-            </div>
-        </div>
-        <div class="center leader" id="lightning">
-            <div class="profile">
-                <div class="pic">
-                    <img src="img/lightning.jpg" alt="Profilový obrázek lightning gym leadera" class="profile-pic" />
+                <div class="center leader" id="lightning">
+                    <div class="profile">
+                        <div class="pic">
+                            <img src="img/lightning.jpg" alt="Profilový obrázek lightning gym leadera" class="profile-pic" />
+                        </div>
+                        <div class="name">
+                            <h1>Roman Mušynskyj</h1>
+                        </div>
+                    </div>
+                    <div class="about">
+                        <p>
+                            <b>Typ: </b>Lightning<br/>
+                            <b>Region: </b>České Budějovice<br/>
+                            <b>Hraje od: </b>???<br/>
+                            <b>Balíček: </b>???<br/>
+                            <b>Kde hraje: </b>???<br/><br/> Informace o tomto leaderovi pro vás připravujeme.</p>
+                    </div>
                 </div>
-                <div class="name">
-                    <h1>Roman Mušynskyj</h1>
-                </div>  
-            </div>
-            <div class="about">
-                <p>
-                    <b>Typ: </b>Lightning<br/>
-                    <b>Region: </b>České Budějovice<br/>
-                    <b>Hraje od: </b>???<br/>
-                    <b>Balíček: </b>???<br/>
-                    <b>Kde hraje: </b>???<br/><br/>
-                    Informace o tomto leaderovi pro vás připravujeme.</p>
-            </div>
-        </div>
-        <div class="center leader" id="psychic">
-            <div class="profile">
-                <div class="pic">
-                    <img src="img/psychic.jpeg" alt="Profilový obrázek psychic gym leadera" class="profile-pic" />
+                <div class="center leader" id="psychic">
+                    <div class="profile">
+                        <div class="pic">
+                            <img src="img/psychic.jpeg" alt="Profilový obrázek psychic gym leadera" class="profile-pic" />
+                        </div>
+                        <div class="name">
+                            <h1>Adam Denk</h1>
+                        </div>
+                    </div>
+                    <div class="about">
+                        <p>
+                            <b>Typ: </b>Psychic<br/>
+                            <b>Region: </b>Plzeň<br/>
+                            <b>Hraje od: </b>2019<br/>
+                            <b>Balíček: </b>Spread<br/>
+                            <b>Kde hraje: </b>Pátky 16-19 v Černém Rytíři<br/><br/> Již od začátku své Pokémoní kariéry Adam preferoval psychické balíčky. Na Gym Leader Challenge si vybral spread (rozdělování poškození po soupeřových pokémonech), protože pokémoni mají na tomto formátu často málo životů. Vzhledem k tomu, že v Gym Leader Challengi jsou pokémoni s menším počtem životů, měli byste si dávat pozor například na <a href="https://limitlesstcg.com/cards/UNB/74">Weezinga</a> nebo na <a href="https://limitlesstcg.com/cards/CEL/15">Lunalu</a>.
+                        </p>
+                    </div>
                 </div>
-                <div class="name">
-                    <h1>Adam Denk</h1>
-                </div>  
-            </div>
-            <div class="about">
-                <p>
-                    <b>Typ: </b>Psychic<br/>
-                    <b>Region: </b>Plzeň<br/>
-                    <b>Hraje od: </b>2019<br/>
-                    <b>Balíček: </b>Spread<br/>
-                    <b>Kde hraje: </b>Pátky 16-19 v Černém Rytíři<br/><br/>
-                    Již od začátku své Pokémoní kariéry Adam preferoval psychické balíčky. Na Gym Leader Challenge si vybral spread (rozdělování poškození po soupeřových pokémonech), protože pokémoni mají na tomto formátu často málo životů.
-                    Vzhledem k tomu, že v Gym Leader Challengi jsou pokémoni s menším počtem životů, měli byste si dávat pozor například na <a href="https://limitlesstcg.com/cards/UNB/74">Weezinga</a> nebo na <a href="https://limitlesstcg.com/cards/CEL/15">Lunalu</a>.
-                </p>
-            </div>
-        </div>
-        <div class="center leader" id="metal">
-            <div class="profile">
-                <div class="pic">
-                    <img src="img/metal.jpg" alt="Profilový obrázek metal gym leadera" class="profile-pic" />
+                <div class="center leader" id="metal">
+                    <div class="profile">
+                        <div class="pic">
+                            <img src="img/metal.jpg" alt="Profilový obrázek metal gym leadera" class="profile-pic" />
+                        </div>
+                        <div class="name">
+                            <h1>Tomáš Just</h1>
+                        </div>
+                    </div>
+                    <div class="about">
+                        <p>
+                            <b>Typ: </b>Metal<br/>
+                            <b>Region: </b>Praha<br/>
+                            <b>Hraje od: </b>???<br/>
+                            <b>Balíček: </b>???<br/>
+                            <b>Kde hraje: </b>Pátky 16-19 v Černém Rytíři, po domluvě úterky v Najádě<br/><br/> Informace o tomto leaderovi pro vás připravujeme.</p>
+                    </div>
                 </div>
-                <div class="name">
-                    <h1>Tomáš Just</h1>
-                </div>  
-            </div>
-            <div class="about">
-                <p>
-                    <b>Typ: </b>Metal<br/>
-                    <b>Region: </b>Praha<br/>
-                    <b>Hraje od: </b>???<br/>
-                    <b>Balíček: </b>???<br/>
-                    <b>Kde hraje: </b>Pátky 16-19 v Černém Rytíři, po domluvě úterky v Najádě<br/><br/>
-                    Informace o tomto leaderovi pro vás připravujeme.</p>
-            </div>
-        </div>
-        <div class="center leader" id="dragon">
-            <div class="profile">
-                <div class="pic">
-                    <img src="img/dragon.png" alt="Profilový obrázek dragon gym leadera" class="profile-pic" />
+                <div class="center leader" id="dragon">
+                    <div class="profile">
+                        <div class="pic">
+                            <img src="img/dragon.png" alt="Profilový obrázek dragon gym leadera" class="profile-pic" />
+                        </div>
+                        <div class="name">
+                            <h1>Jarek Havelka</h1>
+                        </div>
+                    </div>
+                    <div class="about">
+                        <p>
+                            <b>Typ: </b>Dragon<br/>
+                            <b>Region: </b>Brno<br/>
+                            <b>Hraje od: </b>2012<br/>
+                            <b>Balíček: </b>Tempo<br/>
+                            <b>Kde hraje: </b>Neděle 15-18 v Tea Voli Brno<br/><br/> Jarek se zaměřil na různé dračí Pokémony, kteří nepotřebují k útoku mnoho energií, jako například <a href="https://limitlesstcg.com/cards/brs/109">Garchomp</a>. V balíčku hraje karty jako <a href="https://limitlesstcg.com/cards/daa/172">Turbo Patch</a>, <a href="https://limitlesstcg.com/cards/unb/189">Welder</a> nebo <a href="https://limitlesstcg.com/cards/evs/152">Raihan</a>, které mu pomáhají rychle nabít Pokémony. Kromě toho očekávejte v zápase proti Jarkovi několik speciálních energií (například <a href="https://limitlesstcg.com/cards/cin/100">Counter Energy</a> nebo <a href="https://limitlesstcg.com/cards/ros/97">Double Dragon Energy</a>), které mu pomáhají v tempu.
+                        </p>
+                    </div>
                 </div>
-                <div class="name">
-                    <h1>Jarek Havelka</h1>
-                </div>  
-            </div>
-            <div class="about">
-                <p>
-                    <b>Typ: </b>Dragon<br/>
-                    <b>Region: </b>Brno<br/>
-                    <b>Hraje od: </b>2012<br/>
-                    <b>Balíček: </b>Tempo<br/>
-                    <b>Kde hraje: </b>Neděle 15-18 v Tea Voli Brno<br/><br/>
-                    Jarek se zaměřil na různé dračí Pokémony, kteří nepotřebují k útoku mnoho energií, jako například <a href="https://limitlesstcg.com/cards/brs/109">Garchomp</a>.
-                    V balíčku hraje karty jako <a href="https://limitlesstcg.com/cards/daa/172">Turbo Patch</a>, <a href="https://limitlesstcg.com/cards/unb/189">Welder</a> nebo <a href="https://limitlesstcg.com/cards/evs/152">Raihan</a>, které mu pomáhají rychle nabít Pokémony. Kromě toho očekávejte v zápase proti Jarkovi několik speciálních energií (například <a href="https://limitlesstcg.com/cards/cin/100">Counter Energy</a> nebo <a href="https://limitlesstcg.com/cards/ros/97">Double Dragon Energy</a>), které mu pomáhají v tempu.
-                </p>
-            </div>
-        </div>
-        <div class="center leader" id="colorless">
-            <div class="profile">
-                <div class="pic">
-                    <img src="img/colorless.jpg" alt="Profilový obrázek colorless gym leadera" class="profile-pic" />
+                <div class="center leader" id="colorless">
+                    <div class="profile">
+                        <div class="pic">
+                            <img src="img/colorless.jpg" alt="Profilový obrázek colorless gym leadera" class="profile-pic" />
+                        </div>
+                        <div class="name">
+                            <h1>Vojtěch Tvrdík</h1>
+                        </div>
+                    </div>
+                    <div class="about">
+                        <p>
+                            <b>Typ: </b>Colorless<br/>
+                            <b>Region: </b>Střední Čechy<br/>
+                            <b>Hraje od: </b>2012/13<br/>
+                            <b>Balíček: </b>Control<br/>
+                            <b>Kde hraje: </b>Úterky 15-18 v Najádě a pátky 16-19 v Černém Rytíři.<br/><br/> Vojta je dlouhodobým fanouškem balíčků, které mají za cíl znemožnit útoky soupeři. Místo toho, aby vyhrál na vyřazování pokémonů, se vám bude snažit zahodit z balíčku všechny karty a zaházet zdroje. V Gym Leader Challengi mu tuto strategii umožňují různé trenérské karty, jako je <a href="https://limitlesstcg.com/cards/xy/129">Team Flare Grunt</a> nebo <a href="https://limitlesstcg.com/cards/CEC/186">Bellelba & Brycen-Man</a>.
+                        </p>
+                    </div>
                 </div>
-                <div class="name">
-                    <h1>Vojtěch Tvrdík</h1>
-                </div>  
             </div>
-            <div class="about">
-                <p>
-                    <b>Typ: </b>Colorless<br/>
-                    <b>Region: </b>Střední Čechy<br/>
-                    <b>Hraje od: </b>2012/13<br/>
-                    <b>Balíček: </b>Control<br/>
-                    <b>Kde hraje: </b>Úterky 15-18 v Najádě a pátky 16-19 v Černém Rytíři.<br/><br/>
-                    Vojta je dlouhodobým fanouškem balíčků, které mají za cíl znemožnit útoky soupeři. Místo toho, aby vyhrál na vyřazování pokémonů, se vám bude snažit zahodit z balíčku všechny karty a zaházet zdroje.
-                    V Gym Leader Challengi mu tuto strategii umožňují různé trenérské karty, jako je <a href="https://limitlesstcg.com/cards/xy/129">Team Flare Grunt</a> nebo <a href="https://limitlesstcg.com/cards/CEC/186">Bellelba & Brycen-Man</a>.
-                </p>
-            </div>
+            <br/>
+            <br/>
         </div>
-    </div>
-    <br/>
-    <br/>
-    <footer>
-        <p>Našli jste chybu? Není vám něco jasné? Chybí vám tady něco? <a href="mailto:glc.cesko@gmail.com">glc.cesko@gmail.com</a></p>
+    </main>
+
+    <footer class="footer mt-auto py-2 bg-light fixed-bottom">
+        <div class="container text-center mt-3">
+            <p>Máme na stránce chybu nebo tady něco chybí? <a href="mailto:glc.cesko@gmail.com">glc.cesko@gmail.com</a></p>
+        </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
+
 </html>
