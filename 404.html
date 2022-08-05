@@ -1,123 +1,92 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <style>
-        body {
-    background-color:white;
-    font-family:"Roboto", sans-serif, monospace;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #38444d;
-}
-  
-li {
-    font-size: xx-large;
-    float: left;
-}
-
-.dropdown-content > a  {
-    font-size: x-large;
-}
-
-div.navbar{
-  position: sticky;
-  top: 0;
-  width: 100%;
-}
-  
-li a, .dropbtn {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-  
-li a:hover:not(.active), .dropdown:hover:not(.active) .dropbtn {
-    background-color: #111;
-}
-  
-li.dropdown {
-    display: inline-block;
-}
-  
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-h1 {
-    padding: 1em 1em;
-    text-align: center;
-    font-size: xxx-large;
-}
-  
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-  
-.dropdown-content a:hover:not(.active) {background-color: #f1f1f1;}
-  
-.dropdown:hover:not(.active) .dropdown-content {
-    display: block;
-}
-
-footer {
-    text-align: center;
-    background-color: lightblue;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    }
-
-footer > p {
-    font-size: x-large;
-}
-    </style>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Gym Leader Challenge Česko</title>
     <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/gym-leader/gym-leader.github.io/main/favicon.ico">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-</head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
 
-<body>
-    <div class="navbar">
-        <ul class="nav">
-            <li><a href="https://gym-leader.github.io/index.html">Domů</a></li>
-            <li><a href="https://gym-leader.github.io/rules.html">Pravidla</a></li>
-            <li class="dropdown">
-                <a href="https://gym-leader.github.io/leaders.html" class="dropbtn">Gym Leadeři</a>
-                <div class="dropdown-content">
-                    <a href="https://gym-leader.github.io/leaders.html#grass">Grass</a>
-                    <a href="https://gym-leader.github.io/leaders.html#fire">Fire</a>
-                    <a href="https://gym-leader.github.io/leaders.html#water">Water</a>
-                    <a href="https://gym-leader.github.io/leaders.html#lightning">Lightning</a>
-                    <a href="https://gym-leader.github.io/leaders.html#psychic">Psychic</a>
-                    <a href="https://gym-leader.github.io/leaders.html#metal">Metal</a>
-                    <a href="https://gym-leader.github.io/leaders.html#dragon">Dragon</a>
-                    <a href="https://gym-leader.github.io/leaders.html#colorless">Colorless</a>
-                </div>
-            </li>
-        </ul>
-    </div>
-    <h1>HMM... Tato stránka bohužel neexistuje.</h1>
-    <h2 style="text-align: center;">Jsou 2 způsoby, jak si spravit náladu: buď se můžete <a href="https://gym-leader.github.io/">vrátit domů</a> nebo si můžete <a href="https://bit.ly/GLCToredo">koupit něco pěkného</a>.</h2>
-    <footer>
-        <p>Našli jste chybu? Není vám něco jasné? Chybí vám tady něco? <a href="mailto:glc.cesko@gmail.com">glc.cesko@gmail.com</a></p>
+  <body class="d-flex flex-column h-100">
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+          <a href="../index.html" class="navbar-brand">
+            <img src="../assets/brand.png" alt="GLC CZ" width="100em" height="33.6em">
+            <!--Add brand logo-->
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Domů</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../rules.html">Pravidla</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="leaders.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown"> Gym Leadeři </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="../leaders.html">Gym Leadeři</a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../leaders.html#grass">Grass</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../leaders.html#fire">Fire</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../leaders.html#water">Water</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../leaders.html#lightning">Lightning</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../leaders.html#psychic">Psychic</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../leaders.html#darkness">Darkness</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../leaders.html#metal">Metal</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../leaders.html#dragon">Dragon</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.toredo.cz/" target="_blank">Eshop</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="flex-shrink-0 pb-5">
+      <div class="container">
+        <h1 class="text-center">HMM... Tato stránka bohužel neexistuje.</h1>
+        <p class="text-center">Pokud si myslíte, že jde o chybu, dejte nám vědět.</p>
+        <!--Team rocket image?-->
+      </div>
+    </main>
+
+    <footer class="footer mt-auto py-2 bg-light fixed-bottom">
+      <div class="container text-center">
+        <p>Chybí vám tu něco? Našli jste chybu? Napište! <a href="mailto:glc.cesko@gmail.com">glc.cesko@gmail.com</a>
+        </p>
+      </div>
     </footer>
-</body>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
 </html>

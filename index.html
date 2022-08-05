@@ -1,37 +1,94 @@
+<!--https://codebeautify.org/htmlviewer-->
+
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Gym Leader Challenge Česko</title>
-        <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/gym-leader/gym-leader.github.io/main/favicon.ico">
-        <link rel="stylesheet" href="css/styles.css">
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    </head>
-    <body>
-        <div class="navbar">
-            <ul class="nav">
-                <li><a class=active href="">Domů</a></li>
-                <li><a href="rules.html">Pravidla</a></li>
-                <li class="dropdown">
-                    <a href="leaders.html" class="dropbtn">Gym Leadeři</a>
-                    <div class="dropdown-content">
-                        <a href="leaders.html#grass">Grass</a>
-                        <a href="leaders.html#fire">Fire</a>
-                        <a href="leaders.html#water">Water</a>
-                        <a href="leaders.html#lightning">Lightning</a>
-                        <a href="leaders.html#psychic">Psychic</a>
-                        <a href="leaders.html#metal">Metal</a>
-                        <a href="leaders.html#dragon">Dragon</a>
-                        <a href="leaders.html#colorless">Colorless</a>
-                    </div>
-                </li>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gym Leader Challenge Česko</title>
+    <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/gym-leader/gym-leader.github.io/main/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body class="d-flex flex-column h-100">
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+          <a href="index.html" class="navbar-brand">
+            <img src="/assets/brand.png" alt="GLC CZ" width="100em" height="33.6em">
+            <!--Add brand logo-->
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Domů</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="rules.html">Pravidla</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="leaders.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown"> Gym Leadeři </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="leaders.html">Gym Leadeři</a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="leaders.html#grass">Grass</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="leaders.html#fire">Fire</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="leaders.html#water">Water</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="leaders.html#lightning">Lightning</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="leaders.html#psychic">Psychic</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="leaders.html#darkness">Darkness</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="leaders.html#metal">Metal</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="leaders.html#dragon">Dragon</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.toredo.cz/" target="_blank">Eshop</a>
+              </li>
             </ul>
+          </div>
         </div>
-        <h1>O PROJEKTU</h1>
-        <p class="warning">Tato část stránky stále není dokončená, pracuje se na jejím designu i obsahu. Nezapomeňte se podívat na <a href = "rules.html">pravidla</a> a na představení <a href = "leaders.html">Gym Leaderů</a>!</p>
-        Tato stránka vznikla jako součást projektu Gym Leader Challenge Česko, který si klade za cíl tento nový zábavný formát přinést hráčům do Česka.
-        Plné detaily o fungování celého projektu budou zveřejněny do konce týdne.
-        <footer>
-            <p>Našli jste chybu? Není vám něco jasné? Chybí vám tady něco? <a href="mailto:glc.cesko@gmail.com">glc.cesko@gmail.com</a></p>
-        </footer>
-    </body>
+      </nav>
+    </header>
+
+    <main class="flex-shrink-0 pb-5">
+      <div class="container">
+        <div class="alert alert-warning text-center" role="alert"> Plné detaily o fungování celého projektu budou zveřejněny 1.9.2022! </div>
+        <p class="lead">Tato stránka vznikla jako součást projektu Gym Leader Challenge Česko, který si klade za cíl tento nový zábavný formát přinést hráčům do Česka.</p>
+        <p> Stejně jako ve videohrách, kterými byla karetní hra původně inspirována, bude vaším cílem porážet jednotlivé Gym leadery a získávat jejich odznaky. Až nasbíráte všech 8 odznaků, budete mít možnost bojovat proti Elitní čtyřce. Pokud se vám je povede porazit, stanete se šampionem! <br /> Ale pozor! Ve svém balíčku smíte mít každou kartu pouze jednou a všichni pokémoni musí být stejného typu. (Více se dočtete v <a href="rules.html">pravidlech</a>.) <br /> Pokud si myslíte, že jste připraveni, není nic snazšího, než začít. Podívejte se na <a href="leaders.html">seznam Gym leaderů</a>, nějakého si vyberte a domluvte si s ním zápas. Hodně štěstí! </p>
+      </div>
+    </main>
+
+    <footer class="footer mt-auto py-2 bg-light fixed-bottom">
+      <div class="container text-center">
+        <p>Chybí vám tu něco? Našli jste chybu? Napište! <a href="mailto:glc.cesko@gmail.com">glc.cesko@gmail.com</a>
+        </p>
+      </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
 </html>
