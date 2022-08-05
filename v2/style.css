@@ -20,6 +20,9 @@ main > .container {
     main > .container{
         font-size:calc(1.5*var(--bs-body-font-size));
     }
+    .lead{
+        font-size:calc(1.75*var(--bs-body-font-size));
+    }
     .tt-img{
         width: 20em;
     }
