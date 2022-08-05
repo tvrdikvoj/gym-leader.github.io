@@ -1,3 +1,26 @@
 main > .container {
     padding: 1rem 1rem 3rem;
 }
+
+.image-tooltip{
+    --bs-tooltip-bg:: rgba(0,0,0,0);
+}
+
+.tt-img{
+    width: 15em;
+}
+
+@media (max-width: 575.98px){
+    .tt-img{
+        width: 10em;
+    }  
+}
+
+@media (min-width:992px){
+    main > .container{
+        font-size:calc(1.5*var(--bs-body-font-size));
+    }
+    .tt-img{
+        width: 20em;
+    }
+}
