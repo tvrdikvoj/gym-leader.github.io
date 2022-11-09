@@ -10,6 +10,10 @@ main > .container {
     width: 15em;
 }
 
+a.black{
+    color: black;
+}
+
 @media (max-width: 575.98px){
     .tt-img{
         width: 10em;
